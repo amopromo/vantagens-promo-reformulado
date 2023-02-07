@@ -10,7 +10,7 @@
                 <h2>Viajar é muito melhor <br>com quem amamos</h2>
                 <p>
                     E economizar também! Convide quem você ama <br>pra aproveitar todas
-                    essas vantagens com você
+                    essas vantagens com você.
                 </p>
 
                 <a href="#news">
