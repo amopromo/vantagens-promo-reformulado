@@ -6,7 +6,7 @@
                 <h2>Cadastre seu e-mail e nunca perca nenhuma vantagem</h2>
                 <p>
                     Receba as melhores promos e cupons de desconto para continuar
-                    economizando nas suas viagens sem fazer esforço
+                    economizando nas suas viagens sem fazer esforço.
                 </p>
             </div>
 
