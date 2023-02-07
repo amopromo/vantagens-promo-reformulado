@@ -1,0 +1,56 @@
+/*Header*/
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3% 0%;
+  transition: 0.3s;
+}
+
+.logo img {
+  width: 205px;
+}
+
+.logo {
+  margin: auto 0;
+}
+
+.button-header {
+  text-align: right;
+  margin: auto 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #E1FFFF;
+  z-index: 999;
+}
+
+.sticky .header {
+  padding: 1% 0% !important;
+  transition: 0.3s;
+}
+
+.sticky .primary-button {
+  background: #31B9B9 !important;
+  border: 2px solid #31B9B9 !important;
+  color: #fff !important;
+}
+
+.sticky .primary-button:hover {
+  background: transparent !important;
+  border: 2px solid #31B9B9 !important;
+  color: #31B9B9 !important;
+}
+
+@media(max-width: 600px) {
+  .logo img {
+    width: 85%;
+  }
+
+  .sticky {
+    padding: 5px 0;
+  }
+}

@@ -1,0 +1,236 @@
+.parceiros {
+    padding: 4em 0;
+}
+
+#parceiros {
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: inherit;
+    background-color: #FAFAFA;
+}
+
+.parceiros h2 {
+    color: #444444;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 0 0.5em 0;
+}
+
+.parceiros p {
+    color: #757575;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+
+.box-parceiro {
+    border: 1px solid #E7E7E7;
+    border-radius: 14px;
+    width: 90% !important;
+    padding: 40px 30px;
+    text-align: center;
+    background: #fff;
+    position: relative;
+}
+
+.box-parceiro img {
+    margin: auto;
+    object-fit: contain;
+    width: 200px;
+    height: 100px;
+    padding: 0 0 0em 0;
+}
+
+.box-parceiro h3 {
+    color: #444444;
+    font-size: 22px;
+}
+
+.box-parceiro p {
+    font-size: 16px !important;
+    padding: 0 0 8em 0 !important;
+}
+
+.box-parceiro button {
+    width: 100%;
+    color: #fff;
+    background: #31B9B9;
+    border: 1px solid #31B9B9;
+    font-size: 18px;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 1em 0;
+    transition: 0.2s;
+}
+
+.box-parceiro button:hover {
+    background: #208d8d;
+    border: 1px solid #208d8d;
+    transition: 0.2s;
+}
+
+.site-parceiro {
+    display: flex;
+}
+
+.site-parceiro img {
+    width: 30px !important;
+    height: auto !important;
+}
+
+.site-parceiro p {
+    margin: 0 !important;
+    font-size: 15px !important;
+    text-align: left !important;
+    padding: 0 0 0 1em !important;
+}
+
+.slick-slide {
+    margin: 0 27px !important;
+}
+
+.slick-list {
+    margin: 0 -27px !important;
+}
+
+.slick-slide {
+    height: auto !important;
+}
+
+.button-div {
+    bottom: 5%;
+    position: absolute;
+    width: 85%;
+}
+
+img.up.slick-arrow {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #DCDCDC;
+    border-radius: 15px;
+    width: 30px;
+    object-fit: contain;
+    height: 24px;
+    padding: 15px;
+    top: 35%;
+    left: -32px;
+    z-index: 1;
+}
+
+img.down.slick-arrow {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #DCDCDC;
+    border-radius: 15px;
+    width: 30px;
+    object-fit: contain;
+    height: 24px;
+    padding: 15px;
+    top: 35%;
+    z-index: 1;
+    right: -57px;
+}
+
+.tabs {
+    margin: 0 0 1em 0;
+}
+
+.accordion {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 1.5em 2em;
+    width: 100%;
+    border: 1px solid #E7E7E7;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 16px;
+}
+
+.active {
+    border-radius: 16px 16px 0px 0px;
+    border-bottom: 0px !important;
+}
+
+.accordion img {
+    width: 50%;
+    object-fit: scale-down;
+    height: 45px;
+    object-position: left;
+}
+
+.accordion:after {
+    content: ' ';
+    background-image: url('/assets/img/down.svg');
+    background-size: 28px 28px;
+    height: 28px;
+    width: 28px;
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.active:after {
+    content: ' ';
+    background-image: url('/assets/img/up.svg');
+    background-size: 28px 28px;
+    height: 28px;
+    width: 28px;
+    margin-top: 10px;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-left: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    border-radius: 0 0 16px 16px;
+}
+
+@media(max-width: 1050px) {
+    .box-parceiro {
+        border: 0px;
+        border-radius: 16px;
+        width: auto !important;
+        padding: 10px 30px;
+    }
+
+    .button-div {
+        position: unset;
+        width: 100%;
+    }
+
+    .box-parceiro p {
+        padding: 0 0 0em 0em !important;
+    }
+
+    .site-parceiro p {
+        padding: 0 0 0em 1em !important;
+    }
+
+    .site-parceiro {
+        display: inline-flex!important;
+    }
+}
+
+@media(max-width: 600px) {
+    .parceiros {
+        padding: 2em 0;
+    }
+
+    .parceiros h2 {
+        font-size: 25px;
+    }
+
+    .parceiros p {
+        font-size: 18px;
+        margin: 0 0 1em 0;
+    }
+}

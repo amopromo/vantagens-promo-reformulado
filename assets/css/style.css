@@ -1,0 +1,133 @@
+/*Gerais*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+button {
+  font-weight: 700;
+}
+
+p,
+span {
+  font-weight: 400;
+}
+
+.container {
+  width: 1200px !important;
+  margin: 0 auto;
+}
+
+.primary-button {
+  z-index: 1;
+  position: relative;
+  background: transparent;
+  border: 2px solid #31B9B9;
+  border-radius: 5px;
+  color: #31B9B9;
+  font-size: 18px;
+  width: 40%;
+  padding: 0.7em;
+  transition: 0.2s;
+}
+
+.primary-button:hover {
+  background-color: #31B9B9;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.secundary-button {
+  color: #fff;
+  background: #31B9B9;
+  border: 2px solid #31B9B9;
+  padding: 0.7em;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.secundary-button:hover {
+  border: 2px solid #1f9191;
+  background-color: #1f9191;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.desktop {
+  display: block;
+}
+
+.responsive {
+  display: none;
+}
+
+@media(max-width: 1250px) {
+  .container {
+    width: 90% !important;
+  }
+}
+
+@media(max-width: 1050px) {
+  .desktop {
+    display: none !important;
+  }
+
+  .responsive {
+    display: block !important;
+  }
+
+  br {
+    display: none !important;
+  }
+
+  .primary-button {
+    width: 60%;
+  }
+
+  .secundary-button {
+    width: 100% !important;
+  }
+}
+
+@media(max-width: 800px) {
+  .primary-button {
+    width: 75%;
+  }
+}
+
+@media(max-width: 600px) {
+  .primary-button {
+    width: 100%;
+    font-size: 15px;
+    padding: 1em 0em;
+  }
+
+  .secundary-button {
+    font-size: 15px;
+    padding: 1em 0em;
+  }
+
+  #rdstation-bricks-embeddable-form-bricks-component-nPpYeg-GKdtjHNwj0r9xVA .bricks-form__submit {
+    width: 100% !important;
+}
+}

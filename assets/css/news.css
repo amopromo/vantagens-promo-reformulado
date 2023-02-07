@@ -1,0 +1,131 @@
+/*Newsletter*/
+
+.newsletter {
+    background: #757575;
+    padding: 4em 0 3em 0;
+}
+
+.text-news {
+    margin: auto 0;
+}
+
+.newsletter h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.newsletter img {
+    width: 30%;
+    margin: 0% 15% 0% 0%;
+    object-fit: contain;
+}
+
+.newsletter p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+/*Formulario*/
+
+#conversion-form-newsletter-vantagens-promo {
+    display: flex !important;
+    width: 80% !important;
+    margin: auto !important;
+}
+
+.bricks-form__fieldset {
+    width: 100% !important;
+}
+
+.bricks--section {
+    background: transparent !important;
+}
+
+.bricks-form__field {
+    margin-bottom: 1.4em !important;
+}
+
+#rdstation-bricks-embeddable-form-bricks-component-nPpYeg-GKdtjHNwj0r9xVA .bricks-form__input {
+    width: 95% !important;
+}
+
+.bricks-form__input {
+    height: 50px !important;
+}
+
+#rd-form-ldab8fnk .bricks-form__fieldset {
+    flex-flow: inherit !important;
+}
+
+label.bricks-form__label {
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+button#rd-button-ldab8fnp {
+    background: #31B9B9 !important;
+    border: 1px solid #31B9B9 !important;
+    font-size: 18px !important;
+    transition: 0.2s;
+}
+
+button#rd-button-ldab8fnp:hover {
+    background: #1f9191 !important;
+    border: 1px solid #1f9191 !important;
+    transition: 0.2s;
+}
+
+#rd-button-ldab8fnp {
+    margin-top: 29px !important;
+    height: 50px !important;
+}
+
+#rdstation-bricks-embeddable-form-bricks-component-nPpYeg-GKdtjHNwj0r9xVA .bricks-form__submit {
+    width: 55% !important;
+}
+
+@media(max-width: 1050px) {
+    #conversion-form-newsletter-vantagens-promo {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 600px) {
+    .newsletter {
+        padding: 2em 0 2em 0;
+    }
+
+    .newsletter h2 {
+        font-size: 25px;
+    }
+
+    #conversion-form-newsletter-vantagens-promo {
+        flex-direction: column;
+    }
+
+    #rd-form-ldab8fnk .bricks-form__submit {
+        margin: 0 0 0 -4px !important;
+    }
+
+    #rdstation-bricks-embeddable-form-bricks-component-nPpYeg-GKdtjHNwj0r9xVA .bricks-form__input {
+        width: 100% !important;
+    }
+
+    #rd-form-ldab8fnk .bricks-form__input {
+        font-size: 16px !important;
+    }
+
+    #rdstation-bricks-embeddable-form-bricks-component-nPpYeg-GKdtjHNwj0r9xVA .bricks-form__submit {
+        width: 100% !important;
+    }
+
+    button#rd-button-ldab8fnp {
+        font-size: 15px !important;
+        padding: 1em 0 !important;
+        margin: 0 !important;
+    }
+}
