@@ -25,8 +25,8 @@
     <!-- Seguros Promo -->
     <div class="box-parceiro">
         <img src="assets/img/partners/segurospromo.svg" alt="Seguros Promo" />
-        <h3>Seguro Viagem <br> com 15% OFF!</h3>
-        <p>É mais fácil encontrar o seguro viagem ideal para você e quem você ama no <b>Seguros Promo</b>. Compare preços, condições e garanta <b>15% OFF</b> com o cupom <b>VANTAGENS</b>.</p>
+        <h3>Seguro Viagem <br> com 20% OFF!</h3>
+        <p>É mais fácil encontrar o seguro viagem ideal para você e quem você ama no <b>Seguros Promo</b>. Compare preços, condições e garanta <b>20% OFF</b> com o cupom <b>VANTAGENS</b>.</p>
 
         <div class="button-div">
 
@@ -46,7 +46,7 @@
     <div class="box-parceiro">
         <img src="assets/img/partners/elquarto.svg" alt="ElQuarto" />
         <h3>Reserva de hotéis <br> com até R$300 OFF!</h3>
-        <p>No <b>El Quarto</b> você sempre encontra uma hospedagem confortável e que seja a sua cara. Garanta até R$300 de desconto com o cupom <b>ESPECIAL</b>.</p>
+        <p>No <b>El Quarto</b> você sempre encontra uma hospedagem confortável e que seja a sua cara. Garanta até R$300 de desconto com o cupom <b>VANTAGENS</b>.</p>
 
         <div class="button-div">
 
@@ -90,7 +90,7 @@
 
         <div class="button-div">
 
-            <a href="https://americachip.com/" target="_blank">
+            <a href="https://www.parceirospromo.com.br/partners/affiliate/americachip?utm_medium=afiliado&pcrid=2622&utm_source=site-blog&cupom=AMERICA10&pcrtt=lpvantagenspromo" target="_blank">
                 <button>Pegar Promo</button>
             </a>
 
@@ -110,7 +110,7 @@
 
         <div class="button-div">
 
-            <a href="https://mobility.com.br/" target="_blank">
+            <a href="https://www.parceirospromo.com.br/partners/affiliate/mobility?utm_medium=afiliado&pcrid=2622&utm_source=site-blog&pcrtt=lpvantagenspromo" target="_blank">
                 <button>Pegar Promo</button>
             </a>
 
@@ -130,7 +130,7 @@
 
         <div class="button-div">
 
-            <a href="https://fluencypass.com/" target="_blank">
+            <a href="https://www.parceirospromo.com.br/partners/affiliate/fluencypass?utm_medium=afiliado&pcrid=2622&utm_source=site-blog&pcrtt=lpvantagenspromo" target="_blank">
                 <button>Pegar Promo</button>
             </a>
 
@@ -150,7 +150,7 @@
 
         <div class="button-div">
 
-            <a href="https://www.yellowling.com.br/" target="_blank">
+            <a href="https://www.parceirospromo.com.br/partners/affiliate/yellowling?utm_medium=afiliado&pcrid=2622&utm_source=parceirospromo&tracknumber=a9847f02-9b7b-4632-0a5a-08da287265cb&pcrtt=lpvantagenspromo" target="_blank">
                 <button>Pegar Promo</button>
             </a>
 

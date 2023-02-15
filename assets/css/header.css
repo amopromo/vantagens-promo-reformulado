@@ -9,6 +9,7 @@
 
 .logo img {
   width: 205px;
+  transition: 0.3s;
 }
 
 .logo {
@@ -26,6 +27,16 @@
   width: 100%;
   background: #E1FFFF;
   z-index: 999;
+}
+
+.sticky img {
+  width: 140px;
+  transition: 0.3s;
+}
+
+.sticky .primary-button {
+  font-size: 15px;
+  transition: 0.3s;
 }
 
 .sticky .header {

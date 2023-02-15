@@ -12,7 +12,7 @@
 
             <div>
                 <!--Formulário RD Station-->
-                <div role="main" id="newsletter-vantagens-promo-fca0101cb576c074f02f"></div>
+                <div id="newsletter-vantagens-promo-fca0101cb576c074f02f"></div>
                 <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
                 <script type="text/javascript">
                     new RDStationForms(

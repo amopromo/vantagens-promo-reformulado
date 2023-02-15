@@ -1,5 +1,5 @@
 <section id="parceiros" style="background-image: url('assets/img/background-parceiros.png');">
-    <div class="parceiros">
+    <div class="parceiros" id="vantagens">
         <div class="container">
 
             <h2>Mais promo pra você</h2>
@@ -11,4 +11,4 @@
 
         </div>
     </div>
-</section>
+</section> 

@@ -18,8 +18,8 @@
                     desconto que vão deixar sua viagem <br>
                     ainda mais inesquecível!
                 </p>
-                <a href="#news">
-                    <button class="secundary-button">Quero mais promo</button>
+                <a href="#vantagens">
+                    <button class="secundary-button">Ver vantagens</button>
                 </a>
             </div>
         </div>

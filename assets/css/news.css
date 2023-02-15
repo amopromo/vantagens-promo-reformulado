@@ -2,7 +2,11 @@
 
 .newsletter {
     background: #757575;
-    padding: 4em 0 3em 0;
+    padding: 6em 0 6em 0;
+}
+
+#news {
+    scroll-snap-align: start;
 }
 
 .text-news {
@@ -86,6 +90,10 @@ button#rd-button-ldab8fnp:hover {
 
 #rdstation-bricks-embeddable-form-bricks-component-nPpYeg-GKdtjHNwj0r9xVA .bricks-form__submit {
     width: 55% !important;
+}
+
+#newsletter-vantagens-promo-fca0101cb576c074f02f {
+    height: 100px;
 }
 
 @media(max-width: 1050px) {

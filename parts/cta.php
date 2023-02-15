@@ -13,7 +13,7 @@
                     essas vantagens com você.
                 </p>
 
-                <a href="#news">
+                <a href="whatsapp://send?text=Oi, confira essas promoções imperdíveis que encontrei no Vantagens Promo, basta acessar o link: https://www.vantagenspromo.com.br" target="_blank">
                     <button class="secundary-button">Convidar amigos</button>
                 </a>
             </div>
